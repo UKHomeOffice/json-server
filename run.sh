@@ -15,4 +15,4 @@ if [ -f $file ]; then
     args="$args file.js"
 fi
 
-json-server $args --p 3005
+json-server $args --port 3005
