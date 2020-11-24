@@ -2,7 +2,7 @@
 
 args="$@"
 
-args="$@ -p 80"
+args="$@ -p 3004"
 
 file=/data/db.json
 if [ -f $file ]; then
@@ -16,4 +16,4 @@ if [ -f $file ]; then
     args="$args file.js"
 fi
 
-json-server $args --port 3004
+json-server $args
