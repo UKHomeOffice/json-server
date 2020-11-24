@@ -6,7 +6,7 @@ USER 1000
 WORKDIR /data
 VOLUME /data
 
-EXPOSE 80
+EXPOSE 3005
 ADD run.sh /run.sh
 ENTRYPOINT ["bash", "/run.sh"]
 CMD []
