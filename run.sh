@@ -2,7 +2,6 @@
 
 args="$@"
 
-args="$@ -p 3005"
 
 file=/data/db.json
 if [ -f $file ]; then
@@ -16,4 +15,4 @@ if [ -f $file ]; then
     args="$args file.js"
 fi
 
-json-server $args
+json-server $args --p 3005
