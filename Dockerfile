@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:alpine3.13
 
 
 RUN npm install -g json-server
