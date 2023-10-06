@@ -1,4 +1,4 @@
-FROM node:14.21.3-alpine3.17
+FROM node:16.20.2-alpine3.18
 
 
 RUN npm install -g json-server
