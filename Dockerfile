@@ -1,4 +1,4 @@
-FROM node:16.20.2-alpine3.18
+FROM node:lts-alpine3.18
 
 
 RUN npm install -g json-server
@@ -8,5 +8,5 @@ VOLUME /data
 
 EXPOSE 3005
 ADD run.sh /run.sh
-ENTRYPOINT ["bash", "/run.sh"]
+ENTRYPOINT ["sh", "/run.sh"]
 CMD []
